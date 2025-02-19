@@ -20,7 +20,6 @@ namespace Enpal.AppointmentBooking.Domain.Services
             {
                 var availableSlots = new List<AvailableSlotResponse>();
 
-                var allSalesManagers = await _salesManagerRepository.GetAllAsync();
                 // Find sales managers that match the requested language, rating, and product criteria
                 var matchingSalesManagers = await GetMatchingSalesManagersAsync(request);
 
@@ -38,10 +37,8 @@ namespace Enpal.AppointmentBooking.Domain.Services
 
         private async Task<IEnumerable<SalesManager>> GetMatchingSalesManagersAsync(SlotRequest request)
         {
-            var allSalesManagers = await _salesManagerRepository.GetAllAsync();
-
-            return allSalesManagers.Where(sm => sm.Languages.Contains(request.Language) &&
-                sm.CustomerRatings.Contains(request.Rating) && request.Products.All(sm.Products.Contains));
+            return (await _salesManagerRepository.GetAllAsync()).Where(sm => sm.Languages.Contains(request.Language) &&
+                  sm.CustomerRatings.Contains(request.Rating) && request.Products.All(sm.Products.Contains));
         }
 
         private async Task GetAvailableSlotsForManagerAsync(SalesManager manager, DateTime requestedDate, List<AvailableSlotResponse> availableSlots)
