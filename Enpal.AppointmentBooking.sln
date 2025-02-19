@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enpal.AppointmentBooking.API", "Enpal.AppointmentBooking.API\Enpal.AppointmentBooking.API.csproj", "{2F974F82-79F2-4CE1-BB7E-CE55ABD0013C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enpal.AppointmentBooking.Domain", "Enpal.AppointmentBooking.Domain\Enpal.AppointmentBooking.Domain.csproj", "{416A232F-3574-4A11-9A73-7C9E6FE18FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enpal.AppointmentBooking.DB", "Enpal.AppointmentBooking.DB\Enpal.AppointmentBooking.DB.csproj", "{FB264515-26CA-4E3B-A122-00699A538D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enpal.AppointmentBooking.Infrastructure", "Enpal.AppointmentBooking.Repository\Enpal.AppointmentBooking.Infrastructure.csproj", "{F98BD1A3-CE4E-43D7-9A9E-BE6671541703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enpal.AppointmentBooking.Common", "Enpal.AppointmentBooking.Common\Enpal.AppointmentBooking.Common.csproj", "{DC09E1FB-B6A0-4D8D-91BE-7495FD5070AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D99CF0A5-6D00-4307-BD60-48827511A20D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F974F82-79F2-4CE1-BB7E-CE55ABD0013C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F974F82-79F2-4CE1-BB7E-CE55ABD0013C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F974F82-79F2-4CE1-BB7E-CE55ABD0013C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F974F82-79F2-4CE1-BB7E-CE55ABD0013C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416A232F-3574-4A11-9A73-7C9E6FE18FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416A232F-3574-4A11-9A73-7C9E6FE18FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416A232F-3574-4A11-9A73-7C9E6FE18FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416A232F-3574-4A11-9A73-7C9E6FE18FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB264515-26CA-4E3B-A122-00699A538D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB264515-26CA-4E3B-A122-00699A538D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB264515-26CA-4E3B-A122-00699A538D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB264515-26CA-4E3B-A122-00699A538D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98BD1A3-CE4E-43D7-9A9E-BE6671541703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98BD1A3-CE4E-43D7-9A9E-BE6671541703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98BD1A3-CE4E-43D7-9A9E-BE6671541703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98BD1A3-CE4E-43D7-9A9E-BE6671541703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC09E1FB-B6A0-4D8D-91BE-7495FD5070AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC09E1FB-B6A0-4D8D-91BE-7495FD5070AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC09E1FB-B6A0-4D8D-91BE-7495FD5070AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC09E1FB-B6A0-4D8D-91BE-7495FD5070AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
